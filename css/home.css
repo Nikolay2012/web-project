@@ -1,0 +1,100 @@
+body{
+    background-image: url(image/fon6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1, h2, p{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+h1{
+    padding-top: 40px;
+    font-size: 300%;
+    color: #ffff;
+    text-shadow: 1px 2px 2px black;
+}
+h2{
+    font-size: 200%;
+    padding-top: 0; 
+    color: #00a69c;
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+p{
+    font-size: 100%;
+}
+header p:last-child{
+    margin-top: 2%;
+}
+.first-p{
+    font-size: 150%;
+    color: #00a69c;
+    text-shadow: 1px 1px 1px black;
+}
+.button{
+    text-decoration: none;
+    color: #00a69c;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    border: 2px solid #00a69c;
+    border-radius: 5px;
+    background-color: white;
+    padding: 1% 2% 1% 2%;    
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-weight: bold;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;  
+}
+.main div{ 
+    margin: 0 auto;
+    width: 400px;
+    min-height: 400px;
+
+}
+
+main h2, main p{
+    margin-top:  4%;
+}
+.p_instagram, footer p{
+    margin-top: -1%;
+    color: #00a69c;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    font-size: 120%;
+}
+.button-instagram{
+    margin-top: 0;
+}
+.contact{
+    margin-top: 3%;
+}
+main .main .main-text h3{
+    margin-left: 10px;
+    font-size: 200%;
+    color: #ffff;
+    text-shadow: 1px 2px 2px black;
+
+}
+main .main .main-text p{
+    width: 100%;
+    margin-top: 0;
+    text-align: justify;
+}
+main .main .main-text p span{
+    font-size: 120%;
+    color: #00a69c;
+    text-shadow: 1px 1px 1px black;
+}
+main .main .main-text p a{
+    float: right;
+}
+main .main .main-img{
+    width: 650px;
+    background-image: url(image/fon5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
